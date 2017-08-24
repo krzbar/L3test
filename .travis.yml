@@ -1,4 +1,0 @@
-before_install:
- - cd L3
-language: r
-cache: packages
