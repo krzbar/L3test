@@ -1,2 +1,6 @@
 language: r
 cache: packages
+install:
+  - Rscript -e 'devtools::install_deps("L3")'
+script:
+  - Rscript -e 'devtools::check("L3")'
